@@ -259,3 +259,6 @@ x-mock-role: admin
 ## License
 
 MIT 
+
+
+The current hosting plan does not support Node.js, so we are deploying the backend on Render for now.
