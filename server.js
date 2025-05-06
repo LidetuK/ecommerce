@@ -17,6 +17,9 @@ dotenv.config()
 logger.info('Environment variables loaded:')
 logger.info('NODE_ENV: ' + process.env.NODE_ENV)
 logger.info('PORT: ' + process.env.PORT)
+logger.info('DB_TYPE: ' + process.env.DB_TYPE)
+logger.info('DB_HOST: ' + process.env.DB_HOST)
+logger.info('DB_NAME: ' + process.env.DB_NAME)
 logger.info('JWT_SECRET exists: ' + !!process.env.JWT_SECRET)
 logger.info('JWT_REFRESH_SECRET exists: ' + !!process.env.JWT_REFRESH_SECRET)
 
@@ -80,6 +83,11 @@ app.use("/api/admin", adminRoutes)
 app.use("/api/payments", paymentRoutes)
 app.use("/api/media", mediaRoutes)
 
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
+
 // Error handling
 app.use(notFound)
 app.use(errorHandler)
@@ -90,21 +98,43 @@ const PORT = process.env.PORT || 5000
 // Test database connection before starting the server
 const startServer = async () => {
   try {
-    // Test database connection
-    const isConnected = await testConnection()
+    logger.info('Testing database connection...');
+    const isConnected = await testConnection();
+    
     if (!isConnected) {
-      console.error('Failed to connect to the database. Server will not start.')
-      process.exit(1)
+      logger.error('Failed to connect to the database. Server will not start.');
+      process.exit(1);
     }
 
+    logger.info('Database connection successful. Starting server...');
+
     // Start the server
-    app.listen(PORT, () => {
-      console.log(`Server is running on port ${PORT}`)
-    })
+    const server = app.listen(PORT, () => {
+      logger.info(`Server is running on port ${PORT}`);
+      logger.info(`API available at http://localhost:${PORT}/api`);
+    });
+
+    server.on('error', (err) => {
+      logger.error('Server error:', err);
+      process.exit(1);
+    });
+
   } catch (error) {
-    console.error('Error starting server:', error)
-    process.exit(1)
+    logger.error('Error starting server:', error);
+    process.exit(1);
   }
 }
 
-startServer()
+// Handle uncaught exceptions
+process.on('uncaughtException', (error) => {
+  logger.error('Uncaught Exception:', error);
+  process.exit(1);
+});
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (reason, promise) => {
+  logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
+
+startServer();

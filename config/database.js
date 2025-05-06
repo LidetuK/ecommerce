@@ -1,5 +1,6 @@
 const mysql = require('mysql2/promise');
 const { Pool } = require('pg');
+const logger = require('../utils/logger');
 
 const isPostgres = process.env.DB_TYPE === 'postgres';
 
@@ -14,7 +15,7 @@ const dbConfig = {
   }
 };
 
-console.log('Database Configuration:', {
+logger.info('Database Configuration:', {
   ...dbConfig,
   password: '***' // Hide password in logs
 });
@@ -22,18 +23,28 @@ console.log('Database Configuration:', {
 let pool;
 
 if (isPostgres) {
-  pool = new Pool(dbConfig);
-  
-  // Test the connection
-  pool.on('connect', () => {
-    console.log('Successfully connected to PostgreSQL database');
-  });
+  try {
+    pool = new Pool(dbConfig);
+    
+    // Test the connection
+    pool.on('connect', () => {
+      logger.info('Successfully connected to PostgreSQL database');
+    });
 
-  pool.on('error', (err) => {
-    console.error('Unexpected error on idle PostgreSQL client', err);
-  });
+    pool.on('error', (err) => {
+      logger.error('Unexpected error on idle PostgreSQL client', err);
+    });
+  } catch (error) {
+    logger.error('Error creating PostgreSQL pool:', error);
+    throw error;
+  }
 } else {
-  pool = mysql.createPool(dbConfig);
+  try {
+    pool = mysql.createPool(dbConfig);
+  } catch (error) {
+    logger.error('Error creating MySQL pool:', error);
+    throw error;
+  }
 }
 
 const query = async (text, params) => {
@@ -46,9 +57,9 @@ const query = async (text, params) => {
       return rows;
     }
   } catch (error) {
-    console.error('Database query error:', error);
-    console.error('Query:', text);
-    console.error('Parameters:', params);
+    logger.error('Database query error:', error);
+    logger.error('Query:', text);
+    logger.error('Parameters:', params);
     throw error;
   }
 };
@@ -56,16 +67,17 @@ const query = async (text, params) => {
 // Test database connection
 const testConnection = async () => {
   try {
+    logger.info('Testing database connection...');
     if (isPostgres) {
       const result = await pool.query('SELECT NOW()');
-      console.log('Database connection test successful:', result.rows[0]);
+      logger.info('Database connection test successful:', result.rows[0]);
     } else {
       const [result] = await pool.query('SELECT NOW()');
-      console.log('Database connection test successful:', result[0]);
+      logger.info('Database connection test successful:', result[0]);
     }
     return true;
   } catch (error) {
-    console.error('Database connection test failed:', error);
+    logger.error('Database connection test failed:', error);
     return false;
   }
 };
