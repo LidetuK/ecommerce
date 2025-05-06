@@ -2712,3 +2712,660 @@
 {"level":"info","message":"Admin password updated for admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-05 21:04:36"}
 {"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-05 21:04:36"}
 {"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-05 21:04:41"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 10:29:26"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 10:29:26"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 10:29:26"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 10:29:26"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 10:29:26"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:02"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:02"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:03"}
+{"level":"info","message":"Server running on port 5000","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:03"}
+{"level":"info","message":"API available at http://localhost:5000/api","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:03"}
+{"level":"error","message":"Database connection failed: connect ETIMEDOUT","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:03"}
+{"level":"warn","message":"Continuing without database in development mode","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:03"}
+{"level":"info","message":"Database victoria_kids_shop created or already exists","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:06"}
+{"level":"info","message":"Database tables created successfully","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:06"}
+{"level":"info","message":"Admin user already exists","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:06"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 10:30:07"}
+{"level":"info","message":"Admin password updated for admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:07"}
+{"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-06 10:30:07"}
+{"level":"error","message":"Not Found - /api/categories/slug/toys - /api/categories/slug/toys - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 10:37:22"}
+{"level":"error","message":"Not Found - /api/categories/slug/toys - /api/categories/slug/toys - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 10:37:23"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products","service":"victoria-kids-api","timestamp":"2025-05-06 12:08:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:16"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:17"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:17"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:17"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:30"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:31"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:35"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:13:36"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:14:23"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:14:25"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:22:47"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:22:47"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=asc&sort=price","service":"victoria-kids-api","timestamp":"2025-05-06 12:22:48"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=asc&sort=price","service":"victoria-kids-api","timestamp":"2025-05-06 12:22:48"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=id","service":"victoria-kids-api","timestamp":"2025-05-06 12:22:48"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=id","service":"victoria-kids-api","timestamp":"2025-05-06 12:22:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:27"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:27"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=asc&sort=price","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:27"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=id","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:27"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=asc&sort=price","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:27"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=id","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:27"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:53"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:27:53"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:28:02"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=originalPrice","service":"victoria-kids-api","timestamp":"2025-05-06 12:28:02"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=asc&sort=price","service":"victoria-kids-api","timestamp":"2025-05-06 12:28:02"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=asc&sort=price","service":"victoria-kids-api","timestamp":"2025-05-06 12:28:02"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=id","service":"victoria-kids-api","timestamp":"2025-05-06 12:28:02"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=5&order=desc&sort=id","service":"victoria-kids-api","timestamp":"2025-05-06 12:28:02"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:38:35"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:38:35"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:39:44"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:39:44"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:42:10"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:42:10"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:42:17"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:42:17"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/categories?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 12:44:58"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"level":"error","message":"Unknown column 'c.slug' in 'field list'","service":"victoria-kids-api","sql":"\n        SELECT \n          c.id, \n          c.name, \n          c.description,\n          c.slug,\n          c.image,\n          c.created_at,\n          (SELECT COUNT(*) FROM products WHERE category_id = c.id) as product_count\n        FROM categories c\n       ORDER BY c.created_at DESC LIMIT 10 OFFSET 0","sqlMessage":"Unknown column 'c.slug' in 'field list'","sqlState":"42S22","stack":"Error: Unknown column 'c.slug' in 'field list'\n    at PromisePool.query (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at getAdminCategories (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\controllers\\categoryController.js:313:37)\n    at Layer.handle [as handle_request] (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at admin (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\middleware\\authMiddleware.js:90:5)\n    at Layer.handle [as handle_request] (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\middleware\\authMiddleware.js:21:14\n    at C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\utils\\asyncHandler.js:2:19\n    at Layer.handle [as handle_request] (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2025-05-06 12:44:58"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/categories?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 12:44:58"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"level":"error","message":"Unknown column 'c.slug' in 'field list'","service":"victoria-kids-api","sql":"\n        SELECT \n          c.id, \n          c.name, \n          c.description,\n          c.slug,\n          c.image,\n          c.created_at,\n          (SELECT COUNT(*) FROM products WHERE category_id = c.id) as product_count\n        FROM categories c\n       ORDER BY c.created_at DESC LIMIT 10 OFFSET 0","sqlMessage":"Unknown column 'c.slug' in 'field list'","sqlState":"42S22","stack":"Error: Unknown column 'c.slug' in 'field list'\n    at PromisePool.query (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at getAdminCategories (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\controllers\\categoryController.js:313:37)\n    at Layer.handle [as handle_request] (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at admin (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\middleware\\authMiddleware.js:90:5)\n    at Layer.handle [as handle_request] (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\middleware\\authMiddleware.js:21:14\n    at C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\utils\\asyncHandler.js:2:19\n    at Layer.handle [as handle_request] (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2025-05-06 12:44:58"}
+{"level":"error","message":"Not Found - /api/admin/categories/5 - /api/admin/categories/5 - DELETE - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:45:37"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:46:52"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 12:46:53"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:19"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:19"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=clothing&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:22"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=clothing&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:22"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:26"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:26"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&search=budget&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:36"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&search=budget&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:36"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:39"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:39"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&search=luxury&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:43"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&search=luxury&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:43"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&search=new&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:46"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=asc&category=feeding&search=new&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:46"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&category=feeding&search=new&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&category=feeding&search=new&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&category=feeding&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:58"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&category=feeding&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:47:58"}
+{"level":"error","message":"Not Found - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:54:12"}
+{"level":"error","message":"Not Found - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:54:26"}
+{"level":"error","message":"Not Found - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:56:22"}
+{"level":"error","message":"Not Found - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:56:22"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:43"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:44"}
+{"level":"error","message":"Not Found - /api/products/category/clothing?page=1&limit=12&order=desc&sort=name - /api/products/category/clothing?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:47"}
+{"level":"error","message":"Not Found - /api/products/category/clothing?page=1&limit=12&order=desc&sort=name - /api/products/category/clothing?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:47"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:50"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&search=new&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:52"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&search=new&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:52"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:54"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:54"}
+{"level":"error","message":"Not Found - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:56"}
+{"level":"error","message":"Not Found - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - /api/products/category/feeding?page=1&limit=12&order=desc&sort=name - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:56"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:58"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=12&order=desc&sort=name","service":"victoria-kids-api","timestamp":"2025-05-06 12:58:58"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 13:25:28"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 13:25:28"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:32:47"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:32:48"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:33:38"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:33:39"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:41:22"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:41:23"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:41:30"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:41:31"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:42:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:42:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:43:03"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:43:04"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:43:38"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:43:38"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:44:14"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:44:14"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:44:17"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 13:44:17"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:46:37"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:46:44"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:47:08"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:47:09"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 13:53:10"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 13:53:10"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:59:06"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 13:59:06"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:00:43"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:00:43"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 14:07:50"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 14:07:51"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 14:07:55"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 14:07:56"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 14:08:01"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 14:08:02"}
+{"level":"error","message":"Not authorized, token failed - /api/categories - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:13:38"}
+{"level":"error","message":"Invalid email or password - /api/auth/login - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:18:39"}
+{"level":"error","message":"Invalid email or password - /api/auth/login - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:19:13"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Error sending email: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 14:27:11"}
+{"level":"error","message":"Error sending welcome email: Email could not be sent","service":"victoria-kids-api","stack":"Error: Email could not be sent\n    at sendEmail (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\utils\\emailService.js:39:11)\n    at async C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\controllers\\authController.js:41:7","timestamp":"2025-05-06 14:27:11"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:29:26"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:29:27"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:40:09"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:40:10"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:43:37"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:43:37"}
+{"level":"error","message":"User already exists - /api/auth/register - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:33"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Error sending email: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 14:51:47"}
+{"level":"error","message":"Error sending welcome email: Email could not be sent","service":"victoria-kids-api","stack":"Error: Email could not be sent\n    at sendEmail (C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\utils\\emailService.js:39:11)\n    at async C:\\Users\\USER\\Desktop\\REACT\\victoria-kids-shop (2)\\backend\\controllers\\authController.js:41:7","timestamp":"2025-05-06 14:51:47"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:55"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:51:56"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:05"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:10"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:10"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:10"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:11"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:11"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:11"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:11"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:52:11"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:51"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:51"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:51"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:51"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:51"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:51"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:51"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:54:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:47"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:47"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:55:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:02"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:03"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:03"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:03"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:04"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:53"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 14:56:53"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:12"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?page=1&limit=30&order=asc","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:13"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:31"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:34"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:37"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:38"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:38"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:38"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:38"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:39"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:40"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:40"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:40"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:40"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:41"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:43"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:44"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:45"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:45"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:45"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:46"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:47"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:48"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:48"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:48"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:49"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:51"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:51"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:52"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:53"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:54"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:55"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:55"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:55"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:55"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:56"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:56"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:56"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:56"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:57"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:57"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:57"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:57"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:57"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:00:59"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:01"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:04"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:05"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:07"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:08"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:09"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:09"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:09"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:09"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:10"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:13"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:16"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:17"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:19"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:20"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:20"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:20"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:20"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:21"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:22"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:22"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:22"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:22"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:23"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:24"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:24"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:24"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:24"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:27"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:27"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:27"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:27"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:28"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:29"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:30"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:30"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:30"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:32"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:35"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:37"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:37"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:37"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:37"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:38"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:40"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:41"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:41"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:42"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:42"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:42"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:42"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:43"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:43"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:44"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:44"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:46"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:46"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:46"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:46"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:50"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:51"}
+{"level":"error","message":"Not authorized, no token - /api/cart - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:51"}
+{"level":"error","message":"Not authorized, no token - /api/favorites - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:01:51"}
+{"level":"error","message":"Invalid admin credentials - /api/auth/admin/login - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:04:48"}
+{"level":"error","message":"Invalid admin credentials - /api/auth/admin/login - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:05:30"}
+{"level":"error","message":"Invalid admin credentials - /api/auth/admin/login - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:05:55"}
+{"level":"error","message":"Invalid admin credentials - /api/auth/admin/login - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:13:59"}
+{"level":"error","message":"Invalid admin credentials - /api/auth/admin/login - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:14:14"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:20"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:21"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:29"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:29"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:36"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:36"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/customers?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:38"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/customers?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:38"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:44"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/orders?page=1&limit=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:44"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:47"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:47"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/dashboard/stats","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:49"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:50"}
+{"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:50"}
+{"level":"error","message":"Not Found - /api/admin/categories - /api/admin/categories - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:19:37"}
