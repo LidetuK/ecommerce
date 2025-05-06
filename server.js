@@ -8,6 +8,7 @@ const { notFound } = require("./middleware/notFoundMiddleware")
 const logger = require("./utils/logger")
 const path = require("path")
 const fs = require("fs")
+const { testConnection } = require('./config/database')
 
 // Load env vars first
 dotenv.config()
@@ -86,32 +87,24 @@ app.use(errorHandler)
 // Start server
 const PORT = process.env.PORT || 5000
 
-// Function to start server with graceful error handling
-const startServer = async (port) => {
+// Test database connection before starting the server
+const startServer = async () => {
   try {
-    // First run database initialization
-    await runDatabaseInit()
-    
-    // Then start the server
-    const server = app.listen(port, () => {
-      logger.info(`Server running on port ${port}`)
-      logger.info(`API available at http://localhost:${port}/api`)
-    });
+    // Test database connection
+    const isConnected = await testConnection()
+    if (!isConnected) {
+      console.error('Failed to connect to the database. Server will not start.')
+      process.exit(1)
+    }
 
-    server.on('error', (err) => {
-      if (err.code === 'EADDRINUSE') {
-        logger.warn(`Port ${port} is already in use, trying alternative port ${port + 1}`)
-        startServer(port + 1)
-      } else {
-        logger.error(`Server error: ${err.message}`)
-        process.exit(1)
-      }
-    });
+    // Start the server
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`)
+    })
   } catch (error) {
-    logger.error("Failed to start server:", error)
+    console.error('Error starting server:', error)
     process.exit(1)
   }
 }
 
-// Start the server
-startServer(PORT)
+startServer()
