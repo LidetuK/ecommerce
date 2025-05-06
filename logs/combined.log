@@ -3369,3 +3369,128 @@
 {"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:50"}
 {"level":"info","message":"Development mode: Auto-authorizing admin request to /api/admin/products?params[page]=1&params[limit]=10","service":"victoria-kids-api","timestamp":"2025-05-06 15:16:50"}
 {"level":"error","message":"Not Found - /api/admin/categories - /api/admin/categories - POST - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 15:19:37"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 19:02:38"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:56"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:56"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:56"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:56"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:56"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:58"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:58"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:58"}
+{"level":"info","message":"Server running on port 5000","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:58"}
+{"level":"info","message":"API available at http://localhost:5000/api","service":"victoria-kids-api","timestamp":"2025-05-06 19:04:58"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:39"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:39"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:39"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:39"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:39"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"info","message":"Server running on port 5000","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"info","message":"API available at http://localhost:5000/api","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"error","message":"Database connection failed: Unknown database 'victoria_kids_shop'","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"warn","message":"Continuing without database in development mode","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"info","message":"Database victoria_kids_shop created or already exists","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:40"}
+{"level":"info","message":"Database tables created successfully","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:41"}
+{"level":"info","message":"Admin user created with email: admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:41"}
+{"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-06 19:06:41"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 19:06:57"}
+{"level":"error","message":"Not Found - /api/auth/login - /api/auth/login - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 19:07:40"}
+{"level":"error","message":"Not Found - /favicon.ico - /favicon.ico - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 19:07:41"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:33"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:33"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:33"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:33"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:33"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Server running on port 5000","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"API available at http://localhost:5000/api","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Database connection established successfully","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Database victoria_kids_shop created or already exists","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Database tables created successfully","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Admin user already exists","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Admin password updated for admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-06 19:08:34"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 19:08:51"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:04"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:04"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:04"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:04"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:04"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Server running on port 5000","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"API available at http://localhost:5000/api","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Database connection established successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Database victoria_kids_shop created or already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Database tables created successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Admin user already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:06"}
+{"level":"info","message":"Admin password updated for admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:07"}
+{"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:09:07"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 20:09:23"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:26"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:26"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:26"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:26"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:26"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Server running on port 5000","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"API available at http://localhost:5000/api","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Database connection established successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Database victoria_kids_shop created or already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Database tables created successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Admin user already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Admin password updated for admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:18:32"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 20:18:49"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:21"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:21"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:21"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:21"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:21"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"warn","message":"Port 5000 is already in use, trying alternative port 50001","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Server running on port 50001","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"API available at http://localhost:50001/api","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Database connection established successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Database victoria_kids_shop created or already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Database tables created successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Admin user already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:23"}
+{"level":"info","message":"Admin password updated for admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:24"}
+{"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:19:24"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 20:19:40"}
+{"level":"info","message":"Environment variables loaded:","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:14"}
+{"level":"info","message":"NODE_ENV: development","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:14"}
+{"level":"info","message":"PORT: 5000","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:14"}
+{"level":"info","message":"JWT_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:14"}
+{"level":"info","message":"JWT_REFRESH_SECRET exists: true","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:14"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"warn","message":"Port 5000 is already in use, trying alternative port 50001","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Starting database initialization...","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Found initDb.js at: C:\\Users\\G.D.A\\OneDrive\\Desktop\\AbassMartine\\victoria Kids\\victoria-kids\\config\\initDb.js","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Database initialization completed","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Server running on port 50001","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"API available at http://localhost:50001/api","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Database connection established successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Database victoria_kids_shop created or already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Database tables created successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Admin user already exists","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:16"}
+{"level":"info","message":"Admin password updated for admin@victoriakids.com","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:17"}
+{"level":"info","message":"Database initialization completed successfully","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:17"}
+{"level":"error","message":"Not Found - / - / - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:30"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Email service error: getaddrinfo ENOTFOUND smtp.example.com","service":"victoria-kids-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-05-06 20:29:34"}
+{"level":"error","message":"Not Found - /api/auth/register - /api/auth/register - GET - ::1","service":"victoria-kids-api","timestamp":"2025-05-06 20:29:48"}
