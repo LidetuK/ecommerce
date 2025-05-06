@@ -67,6 +67,39 @@ app.use(cors())
 app.use(express.json())
 app.use(morgan("dev"))
 
+// Root route with API documentation
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Welcome to Victoria Kids Shop API',
+    version: '1.0.0',
+    status: 'active',
+    endpoints: {
+      auth: '/api/auth',
+      users: '/api/users',
+      products: '/api/products',
+      categories: '/api/categories',
+      orders: '/api/orders',
+      cart: '/api/cart',
+      favorites: '/api/favorites',
+      newsletter: '/api/newsletter',
+      admin: '/api/admin',
+      payments: '/api/payments',
+      media: '/api/media'
+    },
+    documentation: 'API documentation available at /api/docs',
+    health: '/health'
+  });
+});
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.status(200).json({ 
+    status: 'ok',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime()
+  });
+});
+
 // Session check middleware
 app.use(checkSession)
 
@@ -82,11 +115,6 @@ app.use("/api/newsletter", newsletterRoutes)
 app.use("/api/admin", adminRoutes)
 app.use("/api/payments", paymentRoutes)
 app.use("/api/media", mediaRoutes)
-
-// Health check endpoint
-app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'ok' });
-});
 
 // Error handling
 app.use(notFound)
